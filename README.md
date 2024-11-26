@@ -1,4 +1,4 @@
-# 🔒 Delphi NetCom7 Client-Server Application with SQLite & Encryption
+# 🔒 Delphi NetCom7 Client-Server Database Login and Register Application with SQLite & 3DES Encryption
 
 A Delphi project that implements a secure client-server application using **NetCom7** components. The server uses a SQLite database to store encrypted user credentials, while all communication is encrypted with **LockBox2 3DES** for enhanced security.
 
@@ -74,7 +74,6 @@ A Delphi project that implements a secure client-server application using **NetC
 
 1. **Server Setup**:
    * Install and configure the required components.
-   * Ensure `DB.db` exists in the same directory as the server executable.
    * Run the server application to start listening for client connections.
 
 2. **Client Setup**:
@@ -83,7 +82,7 @@ A Delphi project that implements a secure client-server application using **NetC
    * Use the interface to register a new user or log in with existing credentials.
 
 3. **Encryption**:
-   * Ensure all traffic and credentials are securely encrypted using the built-in LockBox2 3DES implementation.
+   * Ensures all traffic and credentials are securely encrypted using the built-in LockBox2 3DES implementation.
 
 ## 📜 License
 
