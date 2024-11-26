@@ -3,7 +3,7 @@
 A Delphi project that implements a secure client-server application using **NetCom7** components. The server uses a SQLite database to store encrypted user credentials, while all communication is encrypted with **LockBox2 3DES** for enhanced security.
 
 <p align="center">
-  <img src="ThePreview.png">
+  <img src="Preview.png">
 </p>
 
 ## 📋 Features
