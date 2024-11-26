@@ -90,4 +90,4 @@ This project is provided as freeware. Use it at your own risk for educational an
 
 ## 📧 Contact
 
-Developed with ❤️ by BitMasterXor
+Developed with ❤️ In RAD Studio by BitMasterXor
