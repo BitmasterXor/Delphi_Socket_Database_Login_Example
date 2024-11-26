@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2024/11/25 05:19:15.000.499,=C:\Users\BitmasterXor\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/11/25 05:31:04.485,=C:\Users\BitmasterXor\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/11/25 05:32:48.979,=C:\Users\BitmasterXor\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2024/11/25 05:35:47.699,C:\Users\BitmasterXor\Desktop\Youtube Tutorials\Client\Unit1.dfm=C:\Users\BitmasterXor\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2024/11/25 05:35:47.699,C:\Users\BitmasterXor\Desktop\Youtube Tutorials\Client\Unit1.pas=C:\Users\BitmasterXor\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/11/25 05:35:56.787,C:\Users\BitmasterXor\Desktop\Youtube Tutorials\Client\Unit2.dfm=C:\Users\BitmasterXor\Documents\Embarcadero\Studio\Projects\Unit2.dfm</Transaction>
+    <Transaction>2024/11/25 05:35:56.787,C:\Users\BitmasterXor\Desktop\Youtube Tutorials\Client\Unit2.pas=C:\Users\BitmasterXor\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2024/11/25 05:36:03.687,C:\Users\BitmasterXor\Desktop\Youtube Tutorials\Client\ClientLogin.dproj=C:\Users\BitmasterXor\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
