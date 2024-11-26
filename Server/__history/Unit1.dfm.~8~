@@ -1,0 +1,71 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Login Server'
+  ClientHeight = 416
+  ClientWidth = 564
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  Position = poScreenCenter
+  OnCreate = FormCreate
+  TextHeight = 15
+  object GroupBox1: TGroupBox
+    Left = 0
+    Top = 0
+    Width = 561
+    Height = 393
+    Caption = 'Server Log'
+    TabOrder = 0
+    DesignSize = (
+      561
+      393)
+    object Memo1: TMemo
+      Left = 3
+      Top = 16
+      Width = 555
+      Height = 374
+      Anchors = [akLeft, akTop, akRight, akBottom]
+      TabOrder = 0
+      ExplicitWidth = 483
+      ExplicitHeight = 270
+    end
+  end
+  object StatusBar1: TStatusBar
+    Left = 0
+    Top = 397
+    Width = 564
+    Height = 19
+    Panels = <
+      item
+        Text = 'Users Online [0]'
+        Width = 150
+      end>
+    ExplicitLeft = 64
+    ExplicitTop = 416
+    ExplicitWidth = 0
+  end
+  object FDQuery1: TFDQuery
+    Connection = FDConnection1
+    Left = 40
+    Top = 64
+  end
+  object FDConnection1: TFDConnection
+    Params.Strings = (
+      'DriverID=SQLite')
+    LoginPrompt = False
+    Left = 32
+    Top = 8
+  end
+  object ncServerSource1: TncServerSource
+    EncryptionKey = 'SetEncryptionKey'
+    OnConnected = ncServerSource1Connected
+    OnDisconnected = ncServerSource1Disconnected
+    OnHandleCommand = ncServerSource1HandleCommand
+    Left = 48
+    Top = 128
+  end
+end
